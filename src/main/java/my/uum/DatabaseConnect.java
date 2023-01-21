@@ -17,7 +17,7 @@ public class DatabaseConnect {
      * @return connect
      */
     public static Connection connect() {
-        String url = "jdbc:sqlite:Xbot.db";
+        String url = "jdbc:sqlite:https://github.com/FooRoonYi/group-project-xbot/blob/53341fd58ea35c6bd416833b9fb2583384b8f8fd/Xbot.db";
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(url);
